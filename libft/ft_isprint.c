@@ -6,14 +6,14 @@
 /*   By: nmina <nmina@student.42beirut.com>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/31 13:54:17 by nmina             #+#    #+#             */
-/*   Updated: 2025/10/31 13:54:26 by nmina            ###   ########.fr       */
+/*   Updated: 2025/10/31 13:55:19 by nmina            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 // #include <unistd.h>
-int ft_isprint(int c)
+int	ft_isprint(int c)
 {
-    return (c >= 32 && c <= 126);
+	return (c >= 32 && c <= 126);
 }
 
 // int main(void)
