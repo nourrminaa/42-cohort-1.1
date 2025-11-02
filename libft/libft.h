@@ -1,36 +1,27 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strlen.c                                        :+:      :+:    :+:   */
+/*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: nmina <nmina@student.42beirut.com>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/10/31 14:24:21 by nmina             #+#    #+#             */
-/*   Updated: 2025/11/02 12:58:32 by nmina            ###   ########.fr       */
+/*   Created: 2025/11/02 12:38:07 by nmina             #+#    #+#             */
+/*   Updated: 2025/11/02 12:57:33 by nmina            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#ifndef LIBFT_H
+# define LIBFT_H
 
-size_t	ft_strlen(const char *s)
-{
-	size_t	length;
+# include <unistd.h>
+# include <stdlib.h>
 
-	length = 0;
-	while (s[length] != '\0')
-	{
-		length++;
-	}
-	return (length);
-}
+int		ft_isalnum(int c);
+int		ft_isalpha(int c);
+int		ft_isdigit(int c);
+int		ft_isprint(int c);
+size_t	ft_strlen(const char *s);
+int		ft_tolower(int c);
+int		ft_toupper(int c);
 
-// #include <stdio.h>
-// int main(void)
-// {
-//     const char str[] = "hi! it's nour";
-//     int length;
-
-//     length = ft_strlen(str);
-//     printf("Length: %d\n", length);
-//     return 0;
-// }
+#endif
