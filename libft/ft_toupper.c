@@ -6,14 +6,17 @@
 /*   By: nmina <nmina@student.42beirut.com>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/31 14:44:54 by nmina             #+#    #+#             */
-/*   Updated: 2025/10/31 14:49:42 by nmina            ###   ########.fr       */
+/*   Updated: 2025/11/02 12:49:49 by nmina            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-// #include <unistd.h>
+#include "libft.h"
+
 int	ft_toupper(int c)
 {
-	return (c - ('a' - 'A'));
+	if (c >= 'a' && c <= 'z')
+		return (c - ('a' - 'A'));
+	return (c);
 }
 
 // int main()
