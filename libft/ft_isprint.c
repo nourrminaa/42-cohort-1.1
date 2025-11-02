@@ -6,11 +6,12 @@
 /*   By: nmina <nmina@student.42beirut.com>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/31 13:54:17 by nmina             #+#    #+#             */
-/*   Updated: 2025/10/31 13:55:19 by nmina            ###   ########.fr       */
+/*   Updated: 2025/11/02 12:47:47 by nmina            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-// #include <unistd.h>
+#include "libft.h"
+
 int	ft_isprint(int c)
 {
 	return (c >= 32 && c <= 126);

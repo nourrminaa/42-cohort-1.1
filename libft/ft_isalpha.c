@@ -6,11 +6,12 @@
 /*   By: nmina <nmina@student.42beirut.com>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/31 13:41:48 by nmina             #+#    #+#             */
-/*   Updated: 2025/10/31 13:44:32 by nmina            ###   ########.fr       */
+/*   Updated: 2025/11/02 12:47:11 by nmina            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-// #include <unistd.h>
+#include "libft.h"
+
 int	ft_isalpha(int c)
 {
 	return ((c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z'));

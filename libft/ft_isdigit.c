@@ -6,14 +6,17 @@
 /*   By: nmina <nmina@student.42beirut.com>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/31 13:31:37 by nmina             #+#    #+#             */
-/*   Updated: 2025/10/31 13:34:22 by nmina            ###   ########.fr       */
+/*   Updated: 2025/11/02 12:47:38 by nmina            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-// #include <unistd.h>
+#include "libft.h"
+
 int	ft_isdigit(int c)
 {
-	return (c >= '0' && c <= '9');
+	if (c >= '0' && c <= '9')
+		return (1);
+	return (0);
 }
 
 // int main(void)
