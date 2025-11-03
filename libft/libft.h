@@ -6,7 +6,7 @@
 /*   By: nmina <nmina@student.42beirut.com>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/02 12:38:07 by nmina             #+#    #+#             */
-/*   Updated: 2025/11/03 17:03:12 by nmina            ###   ########.fr       */
+/*   Updated: 2025/11/03 18:42:43 by nmina            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ int		ft_isprint(int c);
 size_t	ft_strlen(const char *s);
 int		ft_tolower(int c);
 int		ft_toupper(int c);
-int     ft_isascii(int c);
-void    bzero(void *s, size_t n);
+int		ft_isascii(int c);
+void	bzero(void *s, size_t n);
 
 #endif
