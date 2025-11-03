@@ -6,13 +6,13 @@
 /*   By: nmina <nmina@student.42beirut.com>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/03 14:50:39 by nmina             #+#    #+#             */
-/*   Updated: 2025/11/03 18:41:53 by nmina            ###   ########.fr       */
+/*   Updated: 2025/11/03 19:32:29 by nmina            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	bzero(void *s, size_t n)
+void	ft_bzero(void *s, size_t n)
 {
 	size_t	i;
 
