@@ -6,7 +6,7 @@
 /*   By: nmina <nmina@student.42beirut.com>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/02 12:38:07 by nmina             #+#    #+#             */
-/*   Updated: 2025/11/03 19:32:53 by nmina            ###   ########.fr       */
+/*   Updated: 2025/11/03 19:46:07 by nmina            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,5 +25,6 @@ int		ft_tolower(int c);
 int		ft_toupper(int c);
 int		ft_isascii(int c);
 void	ft_bzero(void *s, size_t n);
+void	*ft_memset(void *b, int c, size_t len);
 
 #endif
