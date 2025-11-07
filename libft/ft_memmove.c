@@ -6,7 +6,7 @@
 /*   By: nmina <nmina@student.42beirut.com>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/07 16:59:06 by nmina             #+#    #+#             */
-/*   Updated: 2025/11/07 17:07:39 by nmina            ###   ########.fr       */
+/*   Updated: 2025/11/07 17:14:51 by nmina            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,6 +36,6 @@ void	*ft_memmove(void *dst, const void *src, size_t len)
 			dest[i - 1] = source[i - 1];
 			i--;
 		}
+		return (dst);
 	}
-	return (dst);
 }
