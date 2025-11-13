@@ -6,13 +6,13 @@
 /*   By: nmina <nmina@student.42beirut.com>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/13 23:31:03 by nmina             #+#    #+#             */
-/*   Updated: 2025/11/13 23:34:16 by nmina            ###   ########.fr       */
+/*   Updated: 2025/11/13 23:52:24 by nmina            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	atoi(const char *str)
+int	ft_atoi(const char *str)
 {
 	int	i;
 	int	sign;
