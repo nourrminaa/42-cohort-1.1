@@ -6,7 +6,7 @@
 /*   By: nmina <nmina@student.42beirut.com>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/02 12:38:07 by nmina             #+#    #+#             */
-/*   Updated: 2025/11/14 13:28:36 by nmina            ###   ########.fr       */
+/*   Updated: 2025/11/14 14:12:14 by nmina            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,7 @@
 
 # include <unistd.h>
 # include <stdlib.h>
+# include <stdint.h>
 
 typedef struct s_list
 {
