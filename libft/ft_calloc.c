@@ -6,7 +6,7 @@
 /*   By: nmina <nmina@student.42beirut.com>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/13 23:36:41 by nmina             #+#    #+#             */
-/*   Updated: 2025/11/14 10:59:24 by nmina            ###   ########.fr       */
+/*   Updated: 2025/11/14 13:47:26 by nmina            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,15 +15,17 @@
 void	*ft_calloc(size_t count, size_t size)
 {
 	void	*ptr;
+	size_t	total_size;
 
 	if (count == 0 || size == 0)
-		return (malloc(0));
-	else if (count > SIZE_MAX / size)
-		return (NULL);
-	ptr = malloc(count * size);
+		return (malloc(1));
+	total_size = count * size;
+	if (count > SIZE_MAX / size)
+		return (0);
+	ptr = malloc(total_size);
 	if (!ptr)
-		return (NULL);
-	ft_memset(ptr, 0, count * size);
+		return (0);
+	ft_memset(ptr, 0, total_size);
 	return (ptr);
 }
 
