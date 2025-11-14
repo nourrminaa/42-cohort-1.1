@@ -6,13 +6,13 @@
 /*   By: nmina <nmina@student.42beirut.com>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/07 17:10:37 by nmina             #+#    #+#             */
-/*   Updated: 2025/11/07 17:21:06 by nmina            ###   ########.fr       */
+/*   Updated: 2025/11/14 03:07:35 by nmina            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-size_t	strlcpy(char *dst, const char *src, size_t dstsize)
+size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize)
 {
 	size_t	i;
 	size_t	src_len;
