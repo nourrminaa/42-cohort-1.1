@@ -6,7 +6,7 @@
 /*   By: nmina <nmina@student.42beirut.com>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/13 23:36:41 by nmina             #+#    #+#             */
-/*   Updated: 2025/11/13 23:42:51 by nmina            ###   ########.fr       */
+/*   Updated: 2025/11/14 08:31:40 by nmina            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ void	*ft_calloc(size_t count, size_t size)
 
 	if (count == 0 || size == 0)
 		return (malloc(0));
-	else if (count * size > SIZE_MAX / size)
+	else if (count > SIZE_MAX / size)
 		return (NULL);
 	ptr = malloc(count * size);
 	if (!ptr)
