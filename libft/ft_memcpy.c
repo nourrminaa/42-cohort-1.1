@@ -6,7 +6,7 @@
 /*   By: nmina <nmina@student.42beirut.com>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/07 16:50:03 by nmina             #+#    #+#             */
-/*   Updated: 2025/11/07 16:56:57 by nmina            ###   ########.fr       */
+/*   Updated: 2025/11/14 02:02:53 by nmina            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,13 +14,13 @@
 
 void	*ft_memcpy(void *dst, const void *src, size_t n)
 {
-	size_t			i;
-	char			*dest;
-	char			*source;
+	size_t					i;
+	unsigned char			*dest;
+	const unsigned char		*source;
 
 	i = 0;
-	dest = (char *)dst;
-	source = (const char *)src;
+	dest = (unsigned char *)dst;
+	source = (const unsigned char *)src;
 	while (i < n)
 	{
 		dest[i] = source[i];
