@@ -6,7 +6,7 @@
 /*   By: nmina <nmina@student.42beirut.com>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/07 17:31:38 by nmina             #+#    #+#             */
-/*   Updated: 2025/11/14 02:07:41 by nmina            ###   ########.fr       */
+/*   Updated: 2025/11/15 01:07:42 by nmina            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,3 +29,16 @@ char	*ft_strrchr(const char *s, int c)
 	}
 	return (NULL);
 }
+
+// #include <stdio.h>
+// int main()
+// {
+// 	const char *str = "Hello, World!";
+// 	int c = 'o';
+// 	char *result = ft_strrchr(str, c);
+// 	if (result)
+// 		printf("Last occurrence of '%c': %s\n", c, result);
+// 	else
+// 		printf("Character '%c' not found.\n", c);
+// 	return 0;
+// }
