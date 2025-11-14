@@ -6,7 +6,7 @@
 /*   By: nmina <nmina@student.42beirut.com>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/14 00:10:01 by nmina             #+#    #+#             */
-/*   Updated: 2025/11/14 00:23:31 by nmina            ###   ########.fr       */
+/*   Updated: 2025/11/14 13:07:14 by nmina            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -104,3 +104,24 @@ char	**ft_split(char const *s, char c)
 	}
 	return (arr);
 }
+
+// #include <stdio.h>
+// int main()
+// {
+// 	char **result;
+// 	int i;
+
+// 	result = ft_split("Hello,,World,,42", ',');
+// 	if (result)
+// 	{
+// 		i = 0;
+// 		while (result[i])
+// 		{
+// 			printf("Word %d: %s\n", i, result[i]);
+// 			free(result[i]);
+// 			i++;
+// 		}
+// 		free(result);
+// 	}
+// 	return 0;
+// }

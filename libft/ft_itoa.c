@@ -6,7 +6,7 @@
 /*   By: nmina <nmina@student.42beirut.com>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/14 00:25:10 by nmina             #+#    #+#             */
-/*   Updated: 2025/11/14 01:03:22 by nmina            ###   ########.fr       */
+/*   Updated: 2025/11/14 13:22:44 by nmina            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,8 +40,8 @@ static void	reverse_str(char *str)
 	while (i < len / 2)
 	{
 		temp = str[i];
-		str[i] = str[len - i - 1];
-		str[len - i - 1] = temp;
+		str[i] = str[len - i];
+		str[len - i] = temp;
 		i++;
 	}
 }
@@ -83,3 +83,16 @@ char	*ft_itoa(int n)
 	fill_str(str, n, is_negative);
 	return (str);
 }
+
+// #include <stdio.h>
+// int main(){
+// 	int number = -12345;
+// 	char *str = ft_itoa(number);
+// 	if (str)
+// 	{
+// 		printf("Integer: %d\n", number);
+// 		printf("String: %s\n", str);
+// 		free(str);
+// 	}
+// 	return 0;
+// }
