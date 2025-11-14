@@ -6,7 +6,7 @@
 /*   By: nmina <nmina@student.42beirut.com>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/13 23:49:41 by nmina             #+#    #+#             */
-/*   Updated: 2025/11/13 23:56:38 by nmina            ###   ########.fr       */
+/*   Updated: 2025/11/14 11:03:15 by nmina            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,3 +35,15 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	substr[i] = '\0';
 	return (substr);
 }
+
+// #include <stdio.h>
+// int main(){
+// 	const char *str = "Hello, World!";
+// 	unsigned int start = 7;
+// 	size_t len = 5;
+// 	char *result;
+// 	result = ft_substr(str, start, len);
+// 	printf("Substring: %s\n", result);
+// 	free(result);
+// 	return 0;
+// }

@@ -6,7 +6,7 @@
 /*   By: nmina <nmina@student.42beirut.com>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/14 01:33:22 by nmina             #+#    #+#             */
-/*   Updated: 2025/11/14 01:34:45 by nmina            ###   ########.fr       */
+/*   Updated: 2025/11/14 11:33:34 by nmina            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,3 +23,12 @@ t_list	*ft_lstnew(void *content)
 	new_node->next = NULL;
 	return (new_node);
 }
+
+// #include <stdio.h>
+// int main(){
+// 	void *data = "nmina";
+// 	t_list *node = ft_lstnew(data);
+// 	printf("Node content: %s\n", (char *)node->content);
+// 	free(node);
+// 	return 0;
+// }

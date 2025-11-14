@@ -6,7 +6,7 @@
 /*   By: nmina <nmina@student.42beirut.com>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/14 01:13:00 by nmina             #+#    #+#             */
-/*   Updated: 2025/11/14 01:13:37 by nmina            ###   ########.fr       */
+/*   Updated: 2025/11/14 11:15:22 by nmina            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,3 +18,9 @@ void	ft_putstr_fd(char *s, int fd)
 		return ;
 	write(fd, s, ft_strlen(s));
 }
+
+// int main()
+// {
+// 	ft_putstr_fd("Hello, World!", 1); 
+// 	return 0;
+// }

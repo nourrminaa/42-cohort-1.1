@@ -6,7 +6,7 @@
 /*   By: nmina <nmina@student.42beirut.com>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/14 01:15:50 by nmina             #+#    #+#             */
-/*   Updated: 2025/11/14 01:18:42 by nmina            ###   ########.fr       */
+/*   Updated: 2025/11/14 11:18:04 by nmina            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,3 +30,11 @@ void	ft_putnbr_fd(int n, int fd)
 	}
 	ft_putchar_fd((n % 10) + '0', fd);
 }
+
+// int main()
+// {
+// 	ft_putnbr_fd(-2147483648, 1); 
+// 	ft_putnbr_fd(12345, 1); 
+// 	ft_putnbr_fd(-6789, 1); 
+// 	return 0;
+// }

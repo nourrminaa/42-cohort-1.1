@@ -6,7 +6,7 @@
 /*   By: nmina <nmina@student.42beirut.com>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/13 23:23:00 by nmina             #+#    #+#             */
-/*   Updated: 2025/11/13 23:51:41 by nmina            ###   ########.fr       */
+/*   Updated: 2025/11/14 10:40:25 by nmina            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,3 +32,18 @@ char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 	}
 	return (NULL);
 }
+
+// #include <stdio.h>
+// int main(){
+// 	const char *haystack = "this is a simple string.";
+// 	const char *needle = "simple";
+// 	size_t len = 25;
+// 	char *result;
+
+// 	result = ft_strnstr(haystack, needle, len);
+// 	if (result)
+// 		printf("Found needle at position: %ld\n", result - haystack);
+// 	else
+// 		printf("Needle not found within the first %zu characters.\n", len);
+// 	return 0;
+// }

@@ -6,7 +6,7 @@
 /*   By: nmina <nmina@student.42beirut.com>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/13 23:31:03 by nmina             #+#    #+#             */
-/*   Updated: 2025/11/13 23:52:24 by nmina            ###   ########.fr       */
+/*   Updated: 2025/11/14 10:41:33 by nmina            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,3 +36,13 @@ int	ft_atoi(const char *str)
 	}
 	return (nb * sign);
 }
+
+// #include <stdio.h>
+// int main(){
+// 	const char *str = "   -12345abc";
+// 	int result;
+
+// 	result = ft_atoi(str);
+// 	printf("%d", result);
+// 	return 0;
+// }

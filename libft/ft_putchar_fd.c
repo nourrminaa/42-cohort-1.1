@@ -6,7 +6,7 @@
 /*   By: nmina <nmina@student.42beirut.com>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/14 01:09:49 by nmina             #+#    #+#             */
-/*   Updated: 2025/11/14 01:10:12 by nmina            ###   ########.fr       */
+/*   Updated: 2025/11/14 11:13:23 by nmina            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,3 +16,9 @@ void	ft_putchar_fd(char c, int fd)
 {
 	write(fd, &c, 1);
 }
+
+// int main()
+// {
+// 	ft_putchar_fd('A', 1); 
+// 	return 0;
+// }

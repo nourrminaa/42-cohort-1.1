@@ -6,7 +6,7 @@
 /*   By: nmina <nmina@student.42beirut.com>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/07 16:59:06 by nmina             #+#    #+#             */
-/*   Updated: 2025/11/07 17:14:51 by nmina            ###   ########.fr       */
+/*   Updated: 2025/11/14 10:18:20 by nmina            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,3 +39,22 @@ void	*ft_memmove(void *dst, const void *src, size_t len)
 		return (dst);
 	}
 }
+
+// #include <stdio.h>
+// int main()
+// {
+// 	char src[] = "Hello, World!";
+// 	char dest[20];
+
+// 	printf("Before memmove:\n");
+// 	printf("Source: %s\n", src);
+// 	printf("Destination: %s\n", dest);
+
+// 	ft_memmove(dest, src, 13);
+
+// 	printf("After memmove:\n");
+// 	printf("Source: %s\n", src);
+// 	printf("Destination: %s\n", dest);
+
+// 	return 0;
+// }

@@ -6,7 +6,7 @@
 /*   By: nmina <nmina@student.42beirut.com>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/13 23:58:12 by nmina             #+#    #+#             */
-/*   Updated: 2025/11/14 00:01:00 by nmina            ###   ########.fr       */
+/*   Updated: 2025/11/14 11:04:10 by nmina            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,3 +32,14 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	joined[i] = '\0';
 	return (joined);
 }
+
+// #include <stdio.h>
+// int main(){
+// 	const char *str1 = "Hello, ";
+// 	const char *str2 = "World!";
+// 	char *result;
+// 	result = ft_strjoin(str1, str2);
+// 	printf("Joined String: %s\n", result);
+// 	free(result);
+// 	return 0;
+// }

@@ -6,7 +6,7 @@
 /*   By: nmina <nmina@student.42beirut.com>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/13 23:44:19 by nmina             #+#    #+#             */
-/*   Updated: 2025/11/13 23:48:24 by nmina            ###   ########.fr       */
+/*   Updated: 2025/11/14 11:00:45 by nmina            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,3 +33,13 @@ char	*ft_strdup(const char *s1)
 	dup[i] = '\0';
 	return (dup);
 }
+
+// #include <stdio.h>
+// int main(){
+// 	const char *original = "Hello, World!";
+// 	char *copy = ft_strdup(original);
+// 	printf("Original: %s\n", original);
+// 	printf("Copy: %s\n", copy);
+// 	free(copy);
+// 	return 0;
+// }

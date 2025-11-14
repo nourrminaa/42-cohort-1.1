@@ -6,7 +6,7 @@
 /*   By: nmina <nmina@student.42beirut.com>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/07 17:22:10 by nmina             #+#    #+#             */
-/*   Updated: 2025/11/14 03:09:27 by nmina            ###   ########.fr       */
+/*   Updated: 2025/11/14 10:26:32 by nmina            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,3 +36,24 @@ size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
 		return (dst_len + src_len);
 	}
 }
+
+// #include <stdio.h>
+// int main(){
+// 	char dest[20] = "Hello, ";
+// 	const char *src = "World!";
+// 	size_t result;
+
+// 	result = ft_strlcat(dest, src, sizeof(dest));
+// 	printf("After strlcat:\n");
+// 	printf("Destination: %s\n", dest);
+// 	printf("Returned Length: %zu\n", result);
+
+// 	// Test with smaller buffer
+// 	char small_dest[10] = "Hello, ";
+// 	result = ft_strlcat(small_dest, src, sizeof(small_dest));
+// 	printf("After strlcat with small buffer:\n");
+// 	printf("Small Destination: %s\n", small_dest);
+// 	printf("Returned Length: %zu\n", result);
+
+// 	return 0;
+// }
