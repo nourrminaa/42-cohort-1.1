@@ -1,0 +1,8 @@
+__pycache__/
+.mypy_cache/
+*.egg-info/
+dist/
+venv/
+.venv/
+uv.lock
+maze.txt
